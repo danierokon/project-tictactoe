@@ -39,7 +39,7 @@ class Game
     # result
     declare_result
     # replay?
-    menu
+    Game.new.menu
   end
 
   def menu
